@@ -4,7 +4,7 @@
 
 ## What is Minimax?
 
-The Minimax algorithm is a method used in two-player games where the AI tries to maximize its chance of winning while assuming the opponent is trying to minimize it. It works by looking at all possible moves recursively, scoring the end states as +1 for an AI win, -1 for a loss, and 0 for a draw, and then choosing the move that guarantees the best outcome.
+The Minimax algorithm is used in two-player games where players take turns making moves. One player tries to maximize their chance of winning, while the other tries to minimize it. The algorithm explores all possible moves recursively, simulating each player’s turn, and assigns scores to terminal states: +1 for a win, -1 for a loss, and 0 for a draw. By working backward from these scores, Minimax chooses the move that guarantees the best outcome, assuming both players play optimally. This way, the AI can plan ahead and respond to every possible move of the opponent.
 
 ## How it Works
 
