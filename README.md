@@ -25,5 +25,5 @@ Alpha-Beta pruning improves Minimax by keeping track of the best values for MAX 
 
 ## Reflection
 
-The insight I have is that both Minimax and Alpha-Beta pruning work well with the Tic-Tac-Toe game, but if the game tree gets bigger, Minimax just becomes too slow. Alpha-Beta pruning, on the other hand, can handle larger trees more efficiently by skipping unnecessary branches, so it makes the AI faster while still playing perfectly. In conclusion, Alpha-Beta pruning is a more practical choice for complex games because it keeps the optimal decision-making of Minimax but significantly reduces the number of moves the AI needs to evaluate, making it both efficient and effective.
+From my research po and insight is that both Minimax and Alpha-Beta pruning work well for the Tic-Tac-Toe game but if the game is too complex mas mahihirapan po or mababagalan yung Minimax so much better po gamitin doon yung Alpha-Beta Pruning po because of the features po na pag skip or pruning if nakita na na or na calculate na mas bababa ang chance na i pick po ito ng Player.
 
